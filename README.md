@@ -36,6 +36,13 @@ It eventually evolved into:
 
 #  HARDWARE WARNING
 
+# Preview
+
+![EVENT//CORE Preview](./preview.png)
+
+> Volumetric browser-native singularity renderer pushing GPU drivers beyond emotional stability.
+
+
 If your screen starts flickering, Chrome disables WebGL, AMD Adrenalin opens a crash dialog, or your GPU driver resets itself...
 
 Congratulations.
