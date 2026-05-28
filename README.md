@@ -34,6 +34,186 @@ It eventually evolved into:
 
 ---
 
+# ⚠ HARDWARE WARNING
+
+If your screen starts flickering, Chrome disables WebGL, AMD Adrenalin opens a crash dialog, or your GPU driver resets itself...
+
+Congratulations.
+
+You have successfully entered EVENT//CORE.
+
+If you see errors like:
+
+```txt
+HRESULT: 0x887A0006
+Device Removed
+GPU process crashed
+Context Lost
+```
+
+your hardware survived the simulation.
+
+Barely.
+
+---
+
+# Important
+
+This project is intentionally abusive to graphics hardware.
+
+EVENT//CORE pushes:
+
+* volumetric raymarching
+* pathological shader loops
+* framebuffer abuse
+* extreme GPU occupancy
+* heavy ALU saturation
+* software-side ray interactions
+* browser rendering limits
+
+This is NOT a normal WebGL demo.
+
+This is effectively:
+
+```txt
+browser-native GPU psychological warfare
+```
+
+Low-end systems may:
+
+* freeze temporarily
+* trigger TDR resets
+* lose WebGL context
+* restart graphics drivers
+* blackscreen briefly
+* cause Chrome GPU process crashes
+
+This is expected behavior.
+
+---
+
+# If the Website Shows "SYSTEM FAILURE"
+
+If the deployed website refuses to run properly, or WebGL/WebGPU becomes disabled after a crash:
+
+```txt
+your GPU driver probably rage quit
+```
+
+Run the project locally instead.
+
+The local environment is significantly more stable and allows full hardware acceleration.
+
+---
+
+# How To Run EVENT//CORE Locally
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/EVENT-CORE.git
+```
+
+---
+
+## 2. Open the folder
+
+```bash
+cd EVENT-CORE
+```
+
+---
+
+## 3. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4. Start the development server
+
+```bash
+npm run dev
+```
+
+OR if you're using plain HTML:
+
+Install the VSCode extension:
+
+```txt
+Live Server
+```
+
+Then:
+
+* Open the project folder in VSCode
+* Right click `index.html`
+* Press:
+
+```txt
+"Open with Live Server"
+```
+
+---
+
+# Recommended Browser
+
+For maximum destruction:
+
+```txt
+Google Chrome Canary
+```
+
+or
+
+```txt
+Microsoft Edge Canary
+```
+
+Enable:
+
+* Hardware acceleration
+* WebGL2
+* WebGPU
+
+---
+
+# Recommended Hardware
+
+Minimum:
+
+* GPU that fears nothing
+* Driver with emotional stability
+* Cooling system blessed by thermodynamics
+
+Recommended:
+
+* RTX 5060+
+* RX 7700 XT+
+* existential acceptance
+
+---
+
+# Final Warning
+
+EVENT//CORE was never designed to be "optimized."
+
+The objective was simple:
+
+```txt
+Push browser graphics pipelines until reality becomes unstable.
+```
+
+If your GPU survives:
+respect.
+
+If your driver crashes:
+the simulation noticed you.
+
+---
+
 # WARNING
 
 This project intentionally executes computationally hostile rendering workloads.
