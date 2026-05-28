@@ -34,7 +34,7 @@ It eventually evolved into:
 
 ---
 
-# ⚠ HARDWARE WARNING
+#  HARDWARE WARNING
 
 If your screen starts flickering, Chrome disables WebGL, AMD Adrenalin opens a crash dialog, or your GPU driver resets itself...
 
@@ -137,26 +137,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-OR if you're using plain HTML:
-
-Install the VSCode extension:
-
-```txt
-Live Server
-```
-
-Then:
-
-* Open the project folder in VSCode
-* Right click `index.html`
-* Press:
-
-```txt
-"Open with Live Server"
-```
-
----
 
 # Recommended Browser
 
