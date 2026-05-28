@@ -1,0 +1,6 @@
+{
+  "name": "EVENT//CORE",
+  "description": "Experimental browser GPU torture renderer simulating contained cosmic violence and particle collisions in a red plasma storm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
